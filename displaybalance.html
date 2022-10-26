@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Budżet osobisty - Przeglądaj bilans</title>
+	<meta name="description" content="Zapanuj nad swoimi wydatkami i spełniaj marzenia!">
+	<meta name="keywords" content="budżet, osobisty, wydatki, oszczędzanie, finanse">
+	<meta name="author" content="Maciej Michalski">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	
+	<link rel="stylesheet" href="displaybalance.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+	<header>
+	
+		<h1>Przeglądanie bilansu</h1>
+
+	</header>
+
+	<main>
+	
+		<article>
+		
+			<form>
+			
+				<div id="container">
+				
+					<div id="periodbox">
+						<label for="period"> Bilans za okres </label>
+					
+						<select id="period">
+							<option>Bieżący miesiąc</option>
+							<option selected>Poprzedni miesiąc</option>
+							<option>Bieżący rok</option>
+							<option>Niestandardowy</option>
+						</select>
+					</div>
+					
+					<br/><br/>
+					
+					<div id="tables">
+					
+						<table width="1000" align="center">
+						
+							<tr>
+							
+								<td colspan="3" align="center"> PRZYCHODY </td>
+							
+							</tr>
+						
+							<tr>
+							
+								<td> Data </td><td> Źródło przychodu </td> <td> Kwota </td>
+							
+							</tr>
+							
+							<tr>
+							
+								<td> 19.09.2022 </td><td> Sprzedaż samochodu </td> <td> 1500,00 </td>
+							
+							</tr>
+							
+							<tr>
+							
+								<td> 25.09.2022 </td><td> Wygrana z loterii </td> <td> 2500,00 </td>
+							
+							</tr>
+						
+						</table>
+						
+						<br/><br/><br/><br/>
+												
+						<table width="1000" align="center">
+						
+							<tr>
+							
+								<td colspan="3" align="center"> WYDATKI </td>
+							
+							</tr>
+						
+							<tr>
+							
+								<td> Data </td><td> Cel wydatku </td> <td> Kwota </td>
+							
+							</tr>
+							
+							<tr>
+							
+								<td> 19.09.2022 </td><td> Jedzenie </td> <td> 1500,00 </td>
+							
+							</tr>
+							
+							<tr>
+							
+								<td> 25.09.2022 </td><td> Ubrania </td> <td> 2500,00 </td>
+							
+							</tr>
+						
+						</table>
+						
+					</div>
+					
+				</div>
+				
+			</form>
+		
+		</article>
+	
+	</main>
+</body>
+</html>

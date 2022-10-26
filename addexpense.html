@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+	<meta charset="utf-8">
+	<title>Budżet osobisty - Dodaj wydatek</title>
+	<meta name="description" content="Zapanuj nad swoimi wydatkami i spełniaj marzenia!">
+	<meta name="keywords" content="budżet, osobisty, wydatki, oszczędzanie, finanse">
+	<meta name="author" content="Maciej Michalski">
+	
+	<meta http-equiv="X-Ua-Compatible" content="IE=edge">
+	
+	<link rel="stylesheet" href="main.css">
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+	
+	<!--[if lt IE 9]>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+	<![endif]-->
+	
+</head>
+
+<body>
+
+	<header>
+	
+		<h1>Dodaj wydatek</h1>
+
+	</header>
+
+	<main>
+	
+		<article>
+		
+			<form>
+			
+				<div id="container">
+				
+					<label>Kwota w zł: <input type="number" step="0.01"></label>
+					<label>Data wydatku: <input type="date" min="2000-01-01"></label>
+					
+					<fieldset>
+				
+						<legend><span class="greenletter"> Sposób płatności </span></legend>
+					
+						<div><label><input type="radio" value="1" name="nadwozie" checked> Gotówka</label></div>
+						<div><label><input type="radio" value="2" name="nadwozie"> Karta debetowa</label></div>
+						<div><label><input type="radio" value="3" name="nadwozie"> Karta kredytowa</label></div>
+
+					</fieldset>
+					
+					<fieldset id="categories">
+					
+						<legend><span class="greenletter"> Kategoria wydatku </span></legend>
+						
+							<div><label><input type="radio" value="1" name="category"> jedzenie </label></div>
+							<div><label><input type="radio" value="2" name="category"> mieszkanie </label></div>
+							<div><label><input type="radio" value="3" name="category"> transport </label></div>
+							<div><label><input type="radio" value="4" name="category"> telekomunikacja </label></div>
+							<div><label><input type="radio" value="5" name="category"> opieka zdrowotna </label></div>
+							<div><label><input type="radio" value="6" name="category"> ubranie </label></div>
+							<div><label><input type="radio" value="7" name="category"> higiena </label></div>
+							<div><label><input type="radio" value="8" name="category"> dzieci </label></div>
+							<div><label><input type="radio" value="9" name="category"> rozrywka </label></div>
+							<div><label><input type="radio" value="10" name="category"> wycieczka </label></div>
+							<div><label><input type="radio" value="11" name="category"> szkolenia </label></div>
+							<div><label><input type="radio" value="12" name="category"> książki </label></div>
+							<div><label><input type="radio" value="13" name="category"> oszczędności </label></div>
+							<div><label><input type="radio" value="12" name="category"> na złotą jesień, czyli emeryturę </label></div>
+							<div><label><input type="radio" value="12" name="category"> spłata długów </label></div>
+							<div><label><input type="radio" value="12" name="category"> darowizna </label></div>
+							<div><label><input type="radio" value="12" name="category"> inne wydatki </label></div>
+						
+					</fieldset>
+				
+					<div><label for="commentary"><span class="greenletter"> Komentarz </span></label></div>
+					<textarea id="commentary" rows="4" cols="37"></textarea>
+					
+					<input type="submit" value="Dodaj">
+					<input type="button" value="Anuluj"></button>
+				</div>
+				
+			</form>
+		
+		</article>
+	
+	</main>
+</body>
+</html>
